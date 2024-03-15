@@ -65,7 +65,7 @@
 
 .bg-img {
     background-image: url('https://i0.wp.com/theluxurytravelexpert.com/wp-content/uploads/2014/04/thailand-beach.jpg?fit=1280%2C720&ssl=1');
-    height: 60vh;
+    height: 90vh;
     background-size: cover;
     padding: 30px;
 }
@@ -73,13 +73,13 @@
 .head2 {
     font-family: Sans-Serif;
     color: white;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .head3 {
     font-family: Roboto;
     color: white;
-    font-size: 32px;
+    font-size: 28px;
     margin-top: 20px;
     padding-right: 50px;
     margin-right: 32px;
@@ -88,16 +88,15 @@
 .head4 {
     font-family: Sans-Serif;
     color: white;
-    font-size: 16px;
+    font-size: 8px;
     padding-right: 50px;
     margin-top: 20px;
 }
 
 .btn1 {
-    width: 250px;
+    width: 150px;
     background-color: white;
-    height: 40px;
-    margin-top: 40px;
+    margin-top: 20px;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -107,7 +106,7 @@
 
 .head5 {
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 10px;
 }
 
 .icon5 {
@@ -118,10 +117,11 @@
 
 .head6 {
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 8px;
     margin-top: 10px;
     padding-right: 30px;
     color: white;
+
 }
 
 .head7 {
@@ -165,7 +165,7 @@
 }
 
 .img2 {
-    height: 250px;
+    height: 150px;
     border-radius: 20px;
     background-image: url('https://images.pexels.com/photos/4388167/pexels-photo-4388167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     width: 250px;
@@ -179,7 +179,7 @@
 }
 
 .img3 {
-    height: 250px;
+    height: 150px;
     border-radius: 20px;
     background-image: url('https://images.pexels.com/photos/707322/pexels-photo-707322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     width: 250px;
@@ -193,7 +193,7 @@
 }
 
 .img4 {
-    height: 250px;
+    height: 150px;
     border-radius: 20px;
     background-image: url('https://images.pexels.com/photos/257472/pexels-photo-257472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     width: 250px;
@@ -207,7 +207,7 @@
 }
 
 .img5 {
-    height: 250px;
+    height: 150px;
     border-radius: 20px;
     background-image: url('https://images.pexels.com/photos/4388164/pexels-photo-4388164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     width: 250px;
@@ -221,7 +221,7 @@
 }
 
 .img6 {
-    height: 250px;
+    height: 150px;
     border-radius: 20px;
     background-image: url('https://images.pexels.com/photos/947185/pexels-photo-947185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     width: 250px;
@@ -273,6 +273,57 @@
     justify-content: space-between;
 }
 
+
+@media(min-width:576px) {
+    .bg-img {
+        height: 70vh;
+    }
+
+    .head2 {
+        font-size: 16px;
+    }
+
+    .head3 {
+        font-size: 38px;
+        font-weight: bold;
+    }
+
+    .head4 {
+        font-size: 15px;
+    }
+
+    .head5 {
+        font-size: 14px;
+    }
+
+    .btn1 {
+        width: 200px;
+    }
+
+    .head6 {
+        font-size: 18px;
+    }
+
+    .img2 {
+        height: 200px;
+    }
+
+    .img3 {
+        height: 200px;
+    }
+
+    .img4 {
+        height: 200px;
+    }
+
+    .img5 {
+        height: 200px;
+    }
+
+    .img6 {
+        height: 200px;
+    }
+}
 
 
 @media(min-width:768px) {
