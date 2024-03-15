@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+.img1 {
+    height: 80px;
+    margin-left: 20px;
+}
+
+.icon {
+    font-size: 28px;
+    margin-right: 30px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.navbarExpand {
+    height: 70vh;
+
+}
+
+.navbarExpand2 {
+    height: 20vh;
+}
+
+.border {
+    border-bottom: black 5px solid;
+}
+
+.icon2 {
+    font-size: 28px;
+    margin-right: 30px;
+    display: none;
+}
+
+.turnOff {
+    display: none;
+}
+
+.turnOn {
+    display: flex;
+}
+
+.head1 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.internalPackage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.bg-img {
+    background-image: url('https://i0.wp.com/theluxurytravelexpert.com/wp-content/uploads/2014/04/thailand-beach.jpg?fit=1280%2C720&ssl=1');
+    height: 60vh;
+    background-size: cover;
+    padding: 30px;
+}
+
+.head2 {
+    font-family: Sans-Serif;
+    color: white;
+    font-size: 18px;
+}
+
+.head3 {
+    font-family: Roboto;
+    color: white;
+    font-size: 32px;
+    margin-top: 20px;
+    padding-right: 50px;
+    margin-right: 32px;
+}
+
+.head4 {
+    font-family: Sans-Serif;
+    color: white;
+    font-size: 16px;
+    padding-right: 50px;
+    margin-top: 20px;
+}
+
+.btn1 {
+    width: 250px;
+    background-color: white;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.head5 {
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.icon5 {
+    color: white;
+    margin-top: 26px;
+    font-size: 20px;
+}
+
+.head6 {
+    font-family: Roboto;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-right: 30px;
+    color: white;
+}
+
+.head7 {
+    font-family: Roboto;
+
+}
+
+.bc1 {
+    text-align: center;
+}
+
+.bottomContainer {
+    margin-top: 40px;
+}
+
+.head8 {
+    font-family: Andale mono, Monospace;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.head9 {
+    font-family: Andale mono, Monospace;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.readMoreContainer {
+    height: 100px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.bc2 {
+    display: flex;
+    flex-grow: 1;
+    overflow: scroll;
+    flex-wrap: nowrap;
+    width: 100vw;
+    margin-top: 30px;
+}
+
+.img2 {
+    height: 250px;
+    border-radius: 20px;
+    background-image: url('https://images.pexels.com/photos/4388167/pexels-photo-4388167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    width: 250px;
+    background-size: cover;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img3 {
+    height: 250px;
+    border-radius: 20px;
+    background-image: url('https://images.pexels.com/photos/707322/pexels-photo-707322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    width: 250px;
+    background-size: cover;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img4 {
+    height: 250px;
+    border-radius: 20px;
+    background-image: url('https://images.pexels.com/photos/257472/pexels-photo-257472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    width: 250px;
+    background-size: cover;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img5 {
+    height: 250px;
+    border-radius: 20px;
+    background-image: url('https://images.pexels.com/photos/4388164/pexels-photo-4388164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    width: 250px;
+    background-size: cover;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img6 {
+    height: 250px;
+    border-radius: 20px;
+    background-image: url('https://images.pexels.com/photos/947185/pexels-photo-947185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    width: 250px;
+    background-size: cover;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.head10 {
+    font-family: Roboto;
+    font-size: 22px;
+    margin-top: 10px;
+    padding-right: 30px;
+    color: black;
+}
+
+.rc1 {
+    display: none;
+}
+
+.rc2 {
+    display: none;
+}
+
+.hr1 {
+    display: none;
+}
+
+.ci1 {
+    background-image: url('https://static.wixstatic.com/media/2d34e5_d8c0319d8c434b9eb351c303c31b5dfb~mv2.jpg/v1/fill/w_1225,h_451,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2d34e5_d8c0319d8c434b9eb351c303c31b5dfb~mv2.jpg');
+    width: 100vw;
+    background-size: cover;
+    height: 30vh;
+    border-radius: 20px;
+}
+
+.btn2 {
+    width: 200px;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+
+
+@media(min-width:768px) {
+    #icon {
+        display: none;
+    }
+
+    #icon2 {
+        display: none;
+    }
+
+    .rc1 {
+        display: flex;
+    }
+
+    .rc2 {
+        display: flex;
+    }
+
+    .head2 {
+        font-size: 22px;
+        color: yellow;
+    }
+
+    .head3 {
+        font-size: 62px;
+        font-weight: bold;
+    }
+
+    .bg-img {
+        background-image: url('https://static.wixstatic.com/media/2d34e5_f31b7f79c757410d8aab04ca606bcbe4~mv2.png/v1/fill/w_1899,h_704,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/2d34e5_f31b7f79c757410d8aab04ca606bcbe4~mv2.png');
+        background-size: cover;
+        width: 100vw;
+    }
+
+    .head4 {
+        font-size: 22px;
+        color: lightgreen;
+    }
+
+    .head6 {
+        font-size: 22px;
+    }
+
+    .bottomContainer {
+        display: flex;
+    }
+
+    #rc3 {
+        display: none;
+    }
+
+    .bc1 {
+        width: 40vw;
+    }
+
+    .img2 {
+        height: 400px;
+        width: 800px;
+    }
+
+    .img3 {
+        height: 400px;
+        width: 800px;
+    }
+
+    .img4 {
+        height: 400px;
+        width: 800px;
+    }
+
+    .img5 {
+        height: 400px;
+        width: 800px;
+    }
+
+    .img6 {
+        height: 400px;
+        width: 800px;
+    }
+}
